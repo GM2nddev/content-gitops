@@ -25,4 +25,4 @@ jobs:
         cd ./python
         echo "${{ secrets.DOPW }}" | docker login -u "GM2nddev" --password-stdin
         docker image build -t GM2nddev/gitops:hellov1.2 .
-        docker push gmw2nddev/gitops:hellov1.2
+        docker push GM2nddev/gitops:hellov1.2
